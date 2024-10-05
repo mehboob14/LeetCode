@@ -7,7 +7,7 @@ public:
         for(int i = 0; i < nums2.size();i++){
             if(set1.find(nums2[i]) != set1.end()){
                 result.insert(nums2[i]);
-            }
+            }//change
         }
         return vector<int>(result.begin(),result.end());
     }
