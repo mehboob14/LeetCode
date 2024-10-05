@@ -16,7 +16,7 @@ public:
                 distinct_nums2.push_back(num);
             }
         }
-
+//added comment
         return {distinct_nums1, distinct_nums2};
     }
 };
